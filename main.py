@@ -1,6 +1,8 @@
 from faceApi import *
 from configuration import *
 
+from pymongo import MongoClient
+
 
 # format is personId:Person class
 directory = {}
